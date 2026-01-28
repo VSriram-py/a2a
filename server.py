@@ -18,7 +18,7 @@ brave_server = MCPServerStdio(
 
 agent = Agent(
     model="openai:gpt-4o-mini",
-    system_prompt="You are an assistant with the ability to search the web with Brave.",
+    system_prompt="You are an assistant with  ability to search the web with Brave.",
     mcp_servers=[brave_server]
 )
 
